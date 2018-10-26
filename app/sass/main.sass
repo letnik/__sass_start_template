@@ -1,0 +1,91 @@
+// DELITED
+#header, #section-first, #section-last
+  height: 100vh
+#header
+  background: red
+#section-first
+  background: blue
+#section-last
+  background: yellow
+#footer
+  background: gray
+
+// END DELITED
+
+/* --- variables --- */
+@import "variables"
+
+/* --- fonts --- */
+@import "fonts.css"
+@import "iconmoon.css"
+
+/* --- specification --- */
+@import "specification"
+
+/* --- animate --- */
+@import "animate.css"
+
+// --- header ---
+.top-line
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  background: rgba(#444, .3)
+  z-index: 100
+  padding: 10px 0
+  -webkit-transition: $transition
+  transition: $transition
+  &.active
+    background: rgba(#444, .99)
+
+.logo
+  overflow: hidden
+  max-width: 160px
+  height: 45px
+  img
+    max-width: 100%
+    max-height: 100%
+    width: auto
+    height: auto
+
+#header
+  .nav
+    &-list
+      li
+        margin: 0 15px
+        a
+          color: white
+          &.active
+            color: red
+
+
+
+
+
+
+#footer
+  .logo
+    -webkit-filter: grayscale(100%) brightness(125%);
+    filter: grayscale(100%) brightness(125%);
+
+  .nav
+    &-list
+      li
+        margin: 0 15px
+        a
+          color: white
+
+
+// --- footer ---
+#footer
+
+/* --- hamburger --- */
+@import "humburger/hamburger"
+
+/* --- popup --- */
+@import "popup/popup-fadeIn-top"
+
+/* --- media --- */
+@import "media"
+

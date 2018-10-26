@@ -1,0 +1,145 @@
+/* --- variables --- */
+@import "variables"
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  -ms-box-sizing: border-box
+  box-sizing: border-box
+*
+  outline: none
+  &:focus, &:active
+    outline: none
+body
+  font-size: 15px
+  margin: 0
+  padding: 0
+
+h1, h2, h3, h4, p
+  margin: 0
+  padding: 0
+  font-weight: normal
+
+ul, li
+  list-style: none
+  margin: 0
+  padding: 0
+
+a, a:hover, a:focus, a:active
+  text-decoration: none
+  color: #222
+
+p
+  margin: 15px 0
+img
+  max-width: 100%
+  height: auto
+section, footer
+  padding: 40px 0
+.wrapper
+  width: 100%
+  max-width: 1200px
+  margin: 0 auto
+  padding: 0 30px
+
+.d-none
+  display: none
+
+.d-block
+  display: block
+
+.d-iblock
+  display: inline-block
+
+.d-inline
+  display: inline
+
+.d-flex
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+
+.jc
+  &-between
+    -webkit-justify-content: space-between
+    justify-content: space-between
+  &-start
+    -webkit-justify-content: flex-strt
+    justify-content: flex-strt
+  &-center
+    -webkit-justify-content: center
+    justify-content: center
+  &-end
+    -webkit-justify-content: flex-end
+    justify-content: flex-end
+  &-between
+    -webkit-justify-content: space-between
+    justify-content: space-between
+  &-around
+    -webkit-justify-content: space-around
+    justify-content: space-around
+
+.ai
+  &-start
+    -webkit-align-items: flex-start
+    align-items: flex-start
+  &-center
+    -webkit-align-items: center
+    align-items: center
+  &-end
+    -webkit-align-items: flex-end
+    align-items: flex-end
+  &-stretch
+    -webkit-align-items: stretch
+    align-items: stretch
+
+.f-wrap
+  -webkit-flex-wrap: wrap
+  flex-wrap: wrap
+
+.f-nwrap
+  -webkit-flex-wrap: nowrap
+  flex-wrap: nowrap
+
+.order-1
+  -webkit-order: 1
+  order: 1
+.order-2
+  -webkit-order: 2
+  order: 2
+.order-3
+  -webkit-order: 3
+  order: 3
+.size-full
+  width: 100%
+  height: 100%
+.btn
+  display: inline-block
+  background: Olive
+  border: none
+  padding: 8px 15px
+  margin: 0
+  cursor: pointer
+  line-height: 18px
+  font-size: 15px
+  -webkit-transition: $transition
+  transition: $transition
+  &:hover
+    background: #222
+    color: #fff
+
+.rel
+  position: relative
+
+.abs
+  position: absolute
+
+.top-left
+  top: 0
+  left: 0
+
+.top-right
+  top: 0
+  right: 0
+

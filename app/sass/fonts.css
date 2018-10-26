@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'ConthraxSb-Regular';
+  src: url('../fonts/ConthraxSb-Regular/ConthraxSb-Regular.eot');
+  src: url('../fonts/ConthraxSb-Regular/ConthraxSb-Regular.woff2') format('woff2'),
+       url('../fonts/ConthraxSb-Regular/ConthraxSb-Regular.woff') format('woff'),
+       url('../fonts/ConthraxSb-Regular/ConthraxSb-Regular.ttf') format('truetype'),
+       url('../fonts/ConthraxSb-Regular/ConthraxSb-Regular.svg#ConthraxSb-Regular') format('svg'),
+       url('../fonts/ConthraxSb-Regular/ConthraxSb-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
